@@ -1,0 +1,320 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    font-weight: 800;
+    font-size: 3.5rem;
+}
+
+#hero .container-fluid {
+    background-color: #48276E;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#hero .container-fluid h1 {
+    color: white;
+    text-align: center;
+    font-weight: 800;
+    margin: 1rem;
+    font-size: 4rem;
+    line-height: 0.85;
+}
+
+#hero .container-fluid h1 span {
+    display: block;
+}
+
+#hero .container-fluid h1 span:last-child {
+    color: #FFFF06;
+}
+
+#hero .container-fluid img {
+    width: 30%;
+}
+
+#hero .container-fluid #boy {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#hero .container-fluid #lady {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#hero .container-fluid .buttons .btn {
+    margin: 0 1rem;
+    padding: 1rem 3.5rem;
+    border-radius: 5rem;
+}
+
+#hero .container-fluid .buttons {
+    margin-top: 3.5rem;
+}
+
+#hero .container-fluid .buttons a:first-child {
+    color: #48276E;
+    font-weight: 700;
+    background-color: #FFFF06;
+    border: 2px solid #48276E;
+}
+
+#hero .container-fluid .buttons a:first-child:hover{
+    background-color: #48276E;
+    border: 2px solid #FFFF06;
+    color:white;
+}
+
+#hero .container-fluid .buttons a:last-child {
+    color: white;
+    font-weight: 700;
+    background-color: #48276E;
+    border: 2px solid #FFFF06;
+}
+
+#hero .container-fluid .buttons a:last-child:hover{
+    background-color: #FFFF06;
+    border: 2px solid #48276E;
+    color: #48276E;
+}
+
+.logo{
+    width: 50%;
+}
+
+.intro {
+    padding: 10rem;
+}
+
+.intro p {
+    font-size: 2.2rem;
+    line-height: 2.4rem;
+    text-align: center;
+    font-weight: 600;
+    color: #48276E;
+}
+
+.contactless {
+    background-color: #FFF12E;
+    padding: 3rem;
+    color: #48276E;
+}
+
+.contactless p {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.contactless .btn {
+    background-color:  #48276E;
+    color: white;
+    border-radius: 50px;
+    padding: 10px 25px;
+    font-weight: 500;
+}
+
+.contactless .btn:hover {
+    background-color:  #FFFF06;
+    color: #48276E;
+}   
+
+.offerings {
+    padding: 0rem;
+    color: #48276E;
+}
+
+.offerings .phone {
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 2;
+    height: 325px;
+}
+
+.offerings .pink-girl {
+    height:450px ;
+    object-fit: cover;
+}
+
+.offerings .phone {
+    height: 450px;
+    top: 0;
+    left: 3%;
+}
+
+.offerings .phone-right {
+    height: 450px;
+    top: 0;
+    right:  -20%;
+}
+
+.offerings p {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-top: 2.5rem;
+}
+
+.offerings button {
+    background: #e10066;
+    color: white;
+    border-radius: 50px;
+    padding: 1rem 3rem;
+}
+
+.offerings #btn-blue{
+    background: #26b3f7;
+}
+
+.offerings #btn-blue:hover{
+    background-color: #48276E;
+    color: white;
+}
+
+.offerings #btn-green{
+    background: #51bca7;
+}
+
+.offerings #btn-green:hover{
+    background-color: #48276E;
+    color: white;
+}
+
+.offerings button:hover{
+    background: #48276E;
+    color: white;
+}   
+
+.topbtn {
+    background-color: #48276E;
+    color: white;
+    padding: .5rem 0.25rem;
+    border-radius: 50px;
+    width: 10rem;
+    font-weight: 500;
+}
+
+.topbtn:hover {
+    color: #48276E;
+    background-color: #FFF12E;
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-previous {
+    display: flex;
+}
+
+.carousel-inner .carousel-item-right.active,
+.carousel-inner .carousel-item-next {
+    transform: translateX(16.66%);
+}
+
+.carousel-inner .carousel-item-left.active,
+.carousel-inner .carousel-item-prev {
+    transform: translateX(-16.66%);
+}
+
+.card {
+    width: 100%;
+    height: auto;
+    border: none;
+    box-shadow: 0px 0px 86px rgb(219, 219, 219);
+}
+
+.card a {
+    object-fit: cover;
+    position: relative;
+    height: 25vh;
+    width: 100%;
+    
+}
+
+.card .buttons{
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    padding: 1rem;
+}
+
+.card a button {
+
+    display: block;
+    border: none;
+    background-color: #00FFD0;
+    color: black;
+    border-radius: 50px;
+    padding: 0.25rem .75rem;
+    margin-top: 0.5rem;
+}
+
+.card .frame {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height:25vh;
+    overflow: hidden;
+}
+
+.card .frame img {
+    width: 200%;
+    height: 200%;
+    object-fit: cover;
+    transition: all 1s ease;
+}
+
+.imagecard:hover img{
+    width: 210%;
+    height: 210%;
+}
+
+.overlay {
+    opacity: 0;
+    position: relative;
+    z-index: 55;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(78, 43, 202, 0.486);
+    transition: all 1s ease;
+}
+
+.overlay p {
+    position: absolute;
+    bottom: 1rem;
+    right: 2rem;
+    font-size: 1.25rem;
+    color: white;
+}
+
+.imagecard:hover .overlay:hover{
+    opacity: 1;
+} 
+
+.card-btm{
+    padding: 2rem;
+}
+
+.date {
+    font-size: 1;
+    color: grey;
+    color: #48276E;
+}
+
+.card-btm h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #48276E;
+}
